@@ -1,0 +1,5 @@
+pt = int(input('Digite o priemeiro termo da PA: '))
+rz = int(input('Digite a razão da PA: '))
+d = pt + (10) * rz
+for c in range(pt,d,rz):
+  print(c)
