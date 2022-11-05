@@ -1,0 +1,12 @@
+at = 2022
+cont = 0
+contt = 0
+for a in range(0,8):
+  ano = int(input('Digite o ano: '))
+  idade = at - ano
+  if idade >= 18:
+    cont += 1
+  else:
+    contt +=1
+print('{} pessoas já são maiores de idade'.format(cont))
+print('{} são menores de idade'.format(contt))  
